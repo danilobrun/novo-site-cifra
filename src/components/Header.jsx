@@ -18,13 +18,33 @@ const Header = () => {
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav ms-auto">
             <li className="nav-item">
+              <a className="nav-link" href="#home">
+                Home
+              </a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="#about">
+                Sobre a Desentup
+              </a>
+            </li>
+            <li className="nav-item">
               <a className="nav-link" href="#services">
                 Serviços
               </a>
             </li>
             <li className="nav-item">
+              <a className="nav-link" href="#quote">
+                Orçar Agora
+              </a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="#schedule">
+                Agendar Visita
+              </a>
+            </li>
+            <li className="nav-item">
               <a className="nav-link" href="#contact">
-                Contato
+                Contatos
               </a>
             </li>
           </ul>
